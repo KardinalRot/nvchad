@@ -28,6 +28,15 @@ map("n", "cn", "*``cgn", { desc = "Change next match by pressing dot (.)" })
 map("n", "cN", "*``cgN", { desc = "Change previous match by pressing dot (.)" })
 map("n", "<leader>vp", "`[v`]<CR>", { desc = "Select pasted text" })
 
+-- <! Movements in insert mode
+map("i", "<C-b>", "<ESC>^i", { desc = "Move beginning of line" })
+map("i", "<C-e>", "<End>", { desc = "Move end of line" })
+map("i", "<C-h>", "<Left>", { desc = "Move left" })
+map("i", "<C-l>", "<Right>", { desc = "Move right" })
+map("i", "<C-j>", "<Down>", { desc = "Move down" })
+map("i", "<C-k>", "<Up>", { desc = "Move up" })
+-- Movements in insert mode !>
+
   --   ["<leader>tt"] = {
   --     function()
   --       require("base46").toggle_theme()

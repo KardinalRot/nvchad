@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    -- event = 'BufWritePre', -- uncomment for format on save
+    event = 'BufWritePre', -- uncomment for format on save
     opts = require "configs.conform",
   },
 
@@ -47,6 +47,7 @@ return {
     "hashivim/vim-terraform",
     lazy = false,
   },
+
   {
     "folke/flash.nvim",
     event = "VeryLazy",
