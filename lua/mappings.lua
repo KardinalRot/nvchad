@@ -27,6 +27,8 @@ map("n", "J", "mzJ`z", { desc = "Join line without moving the cursor" })
 map("n", "cn", "*``cgn", { desc = "Change next match by pressing dot (.)" })
 map("n", "cN", "*``cgN", { desc = "Change previous match by pressing dot (.)" })
 map("n", "<leader>vp", "`[v`]<CR>", { desc = "Select pasted text" })
+map({ "n", "v" }, "gh", "^", { desc = "Go to the beginning line" })
+map({ "n", "v" }, "gl", "$", { desc = "Go to the end of the line" })
 
 -- <! Movements in insert mode
 map("i", "<C-b>", "<ESC>^i", { desc = "Move beginning of line" })
