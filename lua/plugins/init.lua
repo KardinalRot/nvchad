@@ -37,13 +37,6 @@ return {
   { "junegunn/vim-peekaboo", lazy = false },
 
   {
-    "mbbill/undotree", lazy = false,
-    config = function()
-      vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle, { desc = "Toggle Undotree" })
-    end,
-  },
-
-  {
     "hashivim/vim-terraform",
     lazy = false,
   },
