@@ -1,4 +1,5 @@
 require "nvchad.options"
+require "autocmds"
 
 -- add yours here!
 
